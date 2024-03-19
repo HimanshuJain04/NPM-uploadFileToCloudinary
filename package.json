@@ -1,0 +1,25 @@
+{
+  "name": "upload-file-to-cloudinary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HimanshuJain04/npm-uploadFileToCloudinary.git"
+  },
+  "keywords": [
+    "cloudinary"
+  ],
+  "author": "himanshu jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HimanshuJain04/npm-uploadFileToCloudinary/issues"
+  },
+  "homepage": "https://github.com/HimanshuJain04/npm-uploadFileToCloudinary#readme",
+  "dependencies": {
+    "cloudinary": "^2.0.3"
+  }
+}
