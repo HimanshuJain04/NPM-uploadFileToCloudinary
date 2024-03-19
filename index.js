@@ -21,8 +21,7 @@ async function UploadFileToCloudinary({ cloudName, apiKey, apiSecret, folderName
             api_secret: apiSecret,
         });
 
-        console.log("CONFIG SUCCESS!")
-
+ 
         // Upload the file to Cloudinary
         const result = await cloudinary.uploader.upload(file.tempFilePath, {
             folder: folderName,
@@ -30,7 +29,6 @@ async function UploadFileToCloudinary({ cloudName, apiKey, apiSecret, folderName
             quality: quality
         });
 
-        console.log("RESULT!")
 
         return result;
     } catch (error) {
